@@ -217,6 +217,7 @@ var App = {
         $('.js-open-mainnav').on('click', function () {
             $('.Nav__main').toggleClass('Nav__main--open');
             $('.layout-centered').toggleClass('MenuOpen');
+            $(this).toggleClass("active");
         });
         
         // transition hide subNav
